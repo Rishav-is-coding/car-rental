@@ -1,6 +1,9 @@
-import { IconMail, IconPhoneCall } from "@tabler/icons-react";
-
+import { IconMail, IconPhoneCall, IconBrandInstagram} from "@tabler/icons-react";
+import { Link } from "react-router-dom";
 function Footer() {
+  const scrollToTop = () => {
+    window.scrollTo({ top: (0, 0), behavior: "smooth" });
+  };
   return (
     <>
       <footer>
@@ -26,7 +29,15 @@ function Footer() {
                 info@rk-rental.com"
                 >
                   <IconMail />
-                  &nbsp; info@rk-rental.com
+                  &nbsp; info@rk-rental.com 
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/rk.rentals_/" target="_blank"
+                >
+                  <IconBrandInstagram/>
+                  &nbsp; Instagram
                 </a>
               </li>
             </ul>
@@ -34,16 +45,16 @@ function Footer() {
             <ul className="footer-content__2">
               <li>Company</li>
               <li>
-                <a href="https://maps.app.goo.gl/B1LDXo3vbV6FgbEj7" target="_blank">Guwahati</a>
+                <a href="https://maps.app.goo.gl/B1LDXo3vbV6FgbEj7" target="_blank"><span>Guwahati</span><p>Palash Path, Nabin Nagar, Guwahati, Assam</p></a>
               </li>
+              <br></br>
               <li>
-                <a href ="">Pricing Plans</a>
+              <Link to="/models" onClick={scrollToTop}>
+                  Pricing Plans &nbsp; 
+                </Link>
               </li>
               <li>
                 <a href="#home">Refunds/Cancellations</a>
-              </li>
-              <li>
-                <a href="#home">How we work</a>
               </li>
             </ul>
 

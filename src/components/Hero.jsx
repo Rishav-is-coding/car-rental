@@ -78,6 +78,7 @@ function Hero() {
           ^
         </div>
       </section>
+      
     </>
   );
 }

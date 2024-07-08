@@ -34,7 +34,7 @@ function Testimonials() {
                     <img src={Img2} alt="user_img" />
                     <span>
                       <h4>Parry Hotter</h4>
-                      <p>Belgrade</p>
+                      <p>North Guwahati</p>
                     </span>
                   </div>
                 </div>
@@ -53,7 +53,7 @@ function Testimonials() {
                     <img src={Img3} alt="user_img" />
                     <span>
                       <h4>Ron Rizzly</h4>
-                      <p>Novi Sad</p>
+                      <p>Guwahati</p>
                     </span>
                   </div>
                 </div>
