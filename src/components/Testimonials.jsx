@@ -33,7 +33,7 @@ function Testimonials() {
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img2} alt="user_img" />
                     <span>
-                      <h4>Parry Hotter</h4>
+                      <h4>Harry Potter</h4>
                       <p>North Guwahati</p>
                     </span>
                   </div>
@@ -52,7 +52,7 @@ function Testimonials() {
                   <div className="all-testimonials__box__name__profile">
                     <img src={Img3} alt="user_img" />
                     <span>
-                      <h4>Ron Rizzly</h4>
+                      <h4>Ron Weasely</h4>
                       <p>Guwahati</p>
                     </span>
                   </div>
