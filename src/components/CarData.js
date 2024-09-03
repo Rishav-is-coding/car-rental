@@ -23,7 +23,7 @@ export const CAR_DATA = [
   [
     {
       name: "Audi A1 S-Line",
-      price: "45",
+      price: "4500",
       img: AudiA1,
       model: "Audi",
       mark: "A1",
@@ -37,7 +37,7 @@ export const CAR_DATA = [
   [
     {
       name: "Toyota Camry",
-      price: "30",
+      price: "3000",
       img: Toyota,
       model: "Camry",
       mark: "Toyota",
@@ -51,7 +51,7 @@ export const CAR_DATA = [
   [
     {
       name: "BMW 320 ModernLine",
-      price: "35",
+      price: "3500",
       img: Bmw320,
       model: "320",
       mark: "BMW",
@@ -65,7 +65,7 @@ export const CAR_DATA = [
   [
     {
       name: "Mercedes-Benz GLK",
-      price: "50",
+      price: "5000",
       img: Benz,
       model: "Benz GLK",
       mark: "Mercedes",
@@ -79,7 +79,7 @@ export const CAR_DATA = [
   [
     {
       name: "VW Passat CC",
-      price: "25",
+      price: "2500",
       img: Passat,
       model: "Passat CC",
       mark: "Volkswagen",
